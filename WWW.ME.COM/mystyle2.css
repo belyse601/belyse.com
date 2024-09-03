@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffccda; /* Light Pink Background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff66b2; /* A darker shade of pink for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-sidebar, .right-sidebar {
+    width: 20%;
+    background-color: #ff99cc;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    width: 55%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff66b2;
+}
+
+p {
+    color: #333;
+}
